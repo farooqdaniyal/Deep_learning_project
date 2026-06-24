@@ -283,7 +283,7 @@ if uploaded_file:
                 }
 
                 response = requests.post(
-                    "http://127.0.0.1:8000/predict",
+                    "https://farooqdaniyal-mnist-backend.hf.space/predict",
                     files=files,
                     timeout=20
                 )
